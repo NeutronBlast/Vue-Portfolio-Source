@@ -1,0 +1,2 @@
+1. In the Navbar (where the text "English" is located) there's a dropdown on user's hover that allows you to change page's language
+2. In about also add an "Education" section
