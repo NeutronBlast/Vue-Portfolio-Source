@@ -3,3 +3,22 @@
 .navbar-fh{
     background-color:#BAE5FF !important;
 }
+
+.dropdown-item:hover{
+    background-color:#3AA4F6 !important;
+    color: white !important;
+}
+
+.dropdown-item:focus{
+    background-color:#3AA4F6 !important;
+    color: white !important;
+}
+
+.dropdown-item:active{
+    background-color:#3AA4F6 !important; 
+    color: white !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
