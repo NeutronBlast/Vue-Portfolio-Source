@@ -13,6 +13,11 @@ export const i18n = new VueI18n({
             navAbout: 'About',
             navContact: 'Contact',
             navLang: 'Language',
+
+            /* SLIDE */
+
+            checkBtn: 'Check Portfolio',
+            infoBtn: 'Check Info',
         },
         es:{
             navHome: 'Inicio',
@@ -20,6 +25,11 @@ export const i18n = new VueI18n({
             navAbout: 'Información',
             navContact: 'Contacto',
             navLang: 'Idioma',
+
+            /* SLIDE */
+
+            checkBtn: 'Ver Portafolio',
+            infoBtn: 'Ver Información',
         }
     }
 })
