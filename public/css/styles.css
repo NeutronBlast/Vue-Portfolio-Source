@@ -314,8 +314,21 @@ hr.separator{
     border-radius: 5px;
 }
 
+@media (min-width:771px){
+.timeline-text{
+    margin-left: 200px;
+}
+}
+
+@media (max-width:771px){
+    .timeline-text{
+        margin-left: 50px;
+    }
+    }
 /* Body */
 body{
     background-color: #F3F6F6;
     font-family: Roboto;
+    font-size: 15px;
 }
+
