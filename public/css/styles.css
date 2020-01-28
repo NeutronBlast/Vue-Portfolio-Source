@@ -50,6 +50,10 @@
     .carousel{
         height:500px !important
     }
+    #carousel-container{
+        width:100% !important;
+        height: 100% !important;
+    }
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {

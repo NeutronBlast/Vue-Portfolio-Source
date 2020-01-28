@@ -1,6 +1,6 @@
 <template>
-<div class="w-75 h-75 mx-auto">
-    <b-carousel id="carousel-1" v-model="slide" :interval="4000" controls indicators img-width="1000" img-height="600" style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
+<div class="w-75 h-75 mx-auto" id="carousel-container">
+    <b-carousel id="carousel-1" v-model="slide" :interval="4000" controls indicators style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
         <b-carousel-slide>
             <template v-slot:img>
                 <img class="d-block img-fluid w-100" v-bind:src="imgPath(0)" alt="image slot">
@@ -30,7 +30,7 @@ export default {
     },
 
     created(){
-      console.log(window.innerWidth);
+      console.log(this.slides.width);
     },
     methods: {
         imgPath(index){
