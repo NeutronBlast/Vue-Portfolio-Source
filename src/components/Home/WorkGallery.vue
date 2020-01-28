@@ -1,0 +1,97 @@
+<template>
+<div class="white-section" id="work">
+    <div class="container">
+        <b-row>
+            <b-col cols="12">
+                <h1 class="text-center">{{$t('navWork')}}</h1>
+                <hr class="separator">
+            </b-col>
+        </b-row>
+
+        <b-row class="mx-auto">
+            <b-col sm="12" md="4" lg="4" xs="12">
+                <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/snakes.png`)" img-alt="Image" img-top>
+                    <template v-slot:header>
+                        <a href="" class="work-link text-center">
+                            <h5 class="mb-0"><strong>{{$t('snakes_ladders')}}</strong></h5>
+                        </a>
+                    </template>
+
+                </b-card>
+            </b-col>
+
+            <b-col sm="12" md="4" lg="4" xs="12">
+                <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/picdriver.png`)" img-alt="Image" img-top>
+                    <template v-slot:header>
+                        <a href="" class="work-link text-center">
+                            <h5 class="mb-0"><strong>{{$t('pic_driver')}}</strong></h5>
+                        </a>
+                    </template>
+
+                </b-card>
+            </b-col>
+
+            <b-col sm="12" md="4" lg="4" xs="12">
+                <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/readingclub.png`)" img-alt="Image" img-top>
+                    <template v-slot:header>
+                        <a href="" class="work-link text-center">
+                            <h5 class="mb-0"><strong>{{$t('reading_club')}}</strong></h5>
+                        </a>
+                    </template>
+
+                </b-card>
+            </b-col>
+        </b-row>
+        <br>
+
+        <b-row class="mx-auto">
+            <b-col sm="12" md="4" lg="4" xs="12">
+                <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/percapital.png`)" img-alt="Image" img-top>
+                    <template v-slot:header>
+                        <a href="" class="work-link text-center">
+                            <h5 class="mb-0"><strong>Per Capital</strong></h5>
+                        </a>
+                    </template>
+
+                </b-card>
+            </b-col>
+
+            <b-col sm="12" md="4" lg="4" xs="12">
+                <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/proveneet.png`)" img-alt="Image" img-top>
+                    <template v-slot:header>
+                        <a href="" class="work-link text-center">
+                            <h5 class="mb-0"><strong>Proveneet</strong></h5>
+                        </a>
+                    </template>
+
+                </b-card>
+            </b-col>
+
+            <b-col sm="12" md="4" lg="4" xs="12">
+                <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/survey.png`)" img-alt="Image" img-top>
+                    <template v-slot:header>
+                        <a href="" class="work-link text-center">
+                            <h5 class="mb-0"><strong>{{$t('survey_onu')}}</strong></h5>
+                        </a>
+                    </template>
+
+                </b-card>
+            </b-col>
+        </b-row>
+        <br>
+        <b-row>
+            <b-col cols="12">
+                <p>
+                    {{$t('check_all')}} <a href="">{{$t('job_one_link')}}</a>
+                </p>
+            </b-col>
+        </b-row>
+    </div>
+</div>
+</template>
+
+<script>
+export default {
+
+}
+</script>

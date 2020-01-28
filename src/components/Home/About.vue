@@ -12,51 +12,51 @@
                         </b-col>
                     </b-row>
                     <b-row>
-                        <b-col cols="4">
+                        <b-col md="4" lg="4" sm="12">
                             <label>CSS3</label>
                             <ProgressBar size="large" val="90" text="90%" text-align="right" text-position="bottom"></ProgressBar>
                         </b-col>
 
-                        <b-col cols="4">
+                        <b-col md="4" lg="4" sm="12">
                             <label>Javascript</label>
                             <ProgressBar size="large" val="70" text="70%" text-align="right" text-position="bottom"></ProgressBar>
                         </b-col>
 
-                        <b-col cols="4">
+                        <b-col md="4" lg="4" sm="12">
                             <label>HTML5</label>
                             <ProgressBar size="large" val="90" text="90%" text-align="right" text-position="bottom"></ProgressBar>
                         </b-col>
                     </b-row>
 
                     <b-row>
-                        <b-col cols="4">
+                        <b-col md="4" lg="4" sm="12">
                             <label>C#</label>
                             <ProgressBar size="large" val="60" text="60%" text-align="right" text-position="bottom"></ProgressBar>
                         </b-col>
 
-                        <b-col cols="4">
+                        <b-col md="4" lg="4" sm="12">
                             <label>SQL</label>
                             <ProgressBar size="large" val="80" text="80%" text-align="right" text-position="bottom"></ProgressBar>
                         </b-col>
 
-                        <b-col cols="4">
+                        <b-col md="4" lg="4" sm="12">
                             <label>PHP</label>
                             <ProgressBar size="large" val="80" text="80%" text-align="right" text-position="bottom"></ProgressBar>
                         </b-col>
                     </b-row>
 
                     <b-row>
-                        <b-col cols="4">
+                        <b-col md="4" lg="4" sm="12">
                             <label>Laravel</label>
                             <ProgressBar size="large" val="75" text="75%" text-align="right" text-position="bottom"></ProgressBar>
                         </b-col>
 
-                        <b-col cols="4">
+                        <b-col md="4" lg="4" sm="12">
                             <label>Vue JS</label>
                             <ProgressBar size="large" val="70" text="70%" text-align="right" text-position="bottom"></ProgressBar>
                         </b-col>
 
-                        <b-col cols="4">
+                        <b-col md="4" lg="4" sm="12">
                             <label>C</label>
                             <ProgressBar size="large" val="60" text="60%" text-align="right" text-position="bottom"></ProgressBar>
                         </b-col>

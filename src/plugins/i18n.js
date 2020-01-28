@@ -43,7 +43,16 @@ export const i18n = new VueI18n({
 
             education_one: 'Reached 7th semester of Computer Engineering major in Universidad Católica Andrés Bello',
             education_two: 'Completed the first module of Cisco CCNA Networking Course',
-            education_three: 'Completed my English course in Fyr Lois'
+            education_three: 'Completed my English course in Fyr Lois',
+
+            /* WORK SUMMARY */
+
+            snakes_ladders:'Snakes & Ladders (with RS232 connection)',
+            pic_driver: 'Volume and Brightness controller',
+            reading_club: 'Reading Club',
+            survey_onu: 'Survey ONU',
+
+            check_all: 'You can check all my projects clicking',
         },
         es:{
             navHome: 'Inicio',
@@ -80,7 +89,16 @@ export const i18n = new VueI18n({
 
             education_one: 'Llegué a 7mo semestre en la carrera Ingenieria Informática en la Universidad Católica Andrés Bello',
             education_two: 'Completé el Módulo 1 del curso de redes Cisco CCNA',
-            education_three: 'Completé el curso de inglés de Fyr Lois'
+            education_three: 'Completé el curso de inglés de Fyr Lois',
+
+            /* WORK SUMMARY */
+
+            snakes_ladders:'Escaleras y Serpientes con conexión RS232',
+            pic_driver: 'Controlador de brillo y volumen',
+            reading_club: 'Los clubes de lectura',
+            survey_onu: 'Encuesta ONU',
+
+            check_all: 'Puedes visualizar todos mis proyectos cliqueando',
         }
     }
 })

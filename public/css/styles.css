@@ -315,16 +315,28 @@ hr.separator{
 }
 
 @media (min-width:771px){
-.timeline-text{
-    margin-left: 200px;
-}
+    .timeline-text{
+        margin-left: 200px;
+    }
 }
 
 @media (max-width:771px){
     .timeline-text{
         margin-left: 50px;
     }
-    }
+}
+
+/* Work */
+.card{
+    background-color: #BAE5FF !important;
+    border: none !important;
+    border-radius: 0px 0px !important;
+}
+
+.work-link{
+    color: #172e54;
+}
+
 /* Body */
 body{
     background-color: #F3F6F6;

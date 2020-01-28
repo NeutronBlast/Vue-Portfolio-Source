@@ -13,7 +13,7 @@
             <template v-slot:img>
                 <img class="d-block img-fluid w-100" v-bind:src="imgPath(1)" alt="image slot">
             </template>
-            <b-button variant="primary" class="check-i">{{$t('infoBtn')}}</b-button>
+            <a href="#about" class="btn btn-primary check-i">{{$t('infoBtn')}}</a>
         </b-carousel-slide>
     </b-carousel>
 </div>
