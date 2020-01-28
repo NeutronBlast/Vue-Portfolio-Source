@@ -11,7 +11,7 @@
     theme="light">
     </vue-timeline-update>
       <p class="timeline-text">
-        Reached 7th semester of Computer Engineering major in Universidad Católica Andrés Bello
+        {{$t('education_one')}}
       </p>
 
 
@@ -27,7 +27,7 @@
     theme="light">
   </vue-timeline-update>
   <p class="timeline-text">
-    Completed the first module of Cisco CCNA Networking Course
+    {{$t('education_two')}}
   </p>
     <!-- Yet another update -->
   <vue-timeline-update
@@ -42,7 +42,7 @@
     is-last>
   </vue-timeline-update>
     <p class="timeline-text">
-    Completed my English course
+    {{$t('education_three')}}
   </p>
 </div>
 </template>

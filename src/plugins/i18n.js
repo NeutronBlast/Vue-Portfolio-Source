@@ -40,6 +40,10 @@ export const i18n = new VueI18n({
             job_two_e1: 'Deploying specific info from the database into CSV reports from the application',
 
             education: 'Education',
+
+            education_one: 'Reached 7th semester of Computer Engineering major in Universidad Católica Andrés Bello',
+            education_two: 'Completed the first module of Cisco CCNA Networking Course',
+            education_three: 'Completed my English course in Fyr Lois'
         },
         es:{
             navHome: 'Inicio',
@@ -73,6 +77,10 @@ export const i18n = new VueI18n({
             job_two_e1: 'Exportar información específica de una base de datos a un reporte CSV',
 
             education: 'Educación',
+
+            education_one: 'Llegué a 7mo semestre en la carrera Ingenieria Informática en la Universidad Católica Andrés Bello',
+            education_two: 'Completé el Módulo 1 del curso de redes Cisco CCNA',
+            education_three: 'Completé el curso de inglés de Fyr Lois'
         }
     }
 })
