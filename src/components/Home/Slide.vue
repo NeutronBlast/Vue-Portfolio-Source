@@ -28,6 +28,10 @@ export default {
             sliding: null,
         }
     },
+
+    created(){
+      console.log(window.innerWidth);
+    },
     methods: {
         imgPath(index){
           if (index == 0){

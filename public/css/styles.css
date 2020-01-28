@@ -39,6 +39,18 @@
   }
 
 /* Slide */
+
+@media(min-width:958px){
+    .carousel{
+        height:700px !important
+    }
+}
+
+@media(max-width:958px){
+    .carousel{
+        height:500px !important
+    }
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 100px;
