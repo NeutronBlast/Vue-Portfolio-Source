@@ -22,3 +22,50 @@
 .dropdown:hover>.dropdown-menu {
     display: block;
 }
+
+.logo-home{
+    width:65px;
+    height:65px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    z-index: 1;
+  }
+
+  @media (max-width: 991px) {
+    .menu-items {
+      margin-top: 40px;
+    }
+  }
+
+/* Slide */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #3AA4F6;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #3AA4F6;
+}
+
+/*.check-p{
+    position: absolute;
+    top:-200px;
+}*/
+
+/* Body */
+body{
+    background-color: #F3F6F6;
+}
