@@ -1,3 +1,13 @@
+@font-face{
+    font-family: "Neutra-Text";
+    src: url('../fonts/NT.otf');
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
 /* NAVBAR */
 
 .navbar-fh{
@@ -285,7 +295,27 @@
     }
 }
 
+/* About */
+.white-section{
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: Neutra-Text;
+}
+
+hr.separator{
+    margin-top:-5px;
+    border: 2px solid #3AA4F6;
+    width: 80px;
+    border-radius: 5px;
+}
+
 /* Body */
 body{
     background-color: #F3F6F6;
+    font-family: Roboto;
 }

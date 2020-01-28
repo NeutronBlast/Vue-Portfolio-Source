@@ -14,8 +14,19 @@ import FlagIcon from 'vue-flag-icon'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
 Vue.use(VueAwesomeSwiper, /* { default global options } */)
 Vue.use(FlagIcon)
+
+library.add(fas)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
+import VueTimeline from "@growthbunker/vuetimeline";
+Vue.use(VueTimeline);
 
 Vue.config.productionTip = false
 

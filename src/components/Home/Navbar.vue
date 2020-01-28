@@ -13,8 +13,8 @@
             <b-navbar-nav class="ml-auto menu-items">
                 <b-nav-item to="/">{{$t('navHome')}}</b-nav-item>
                 <b-nav-item to="/work">{{$t('navWork')}}</b-nav-item>
-                <b-nav-item to="/about">{{$t('navAbout')}}</b-nav-item>
-                <b-nav-item to="/contact">{{$t('navContact')}}</b-nav-item>
+                <b-nav-item href="#about">{{$t('navAbout')}}</b-nav-item>
+                <b-nav-item href="#contact">{{$t('navContact')}}</b-nav-item>
 
                 <b-nav-item-dropdown :text="$t('navLang')" right>
                     <b-dropdown-item @click="setLocale('en')"><flag iso="us"></flag> English</b-dropdown-item>
