@@ -28,6 +28,12 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 import VueTimeline from "@growthbunker/vuetimeline";
 Vue.use(VueTimeline);
 
+
+import Slider from '@jeremyhamm/vue-slider'
+
+Vue.use(Slider)
+
+
 Vue.config.productionTip = false
 
 /* CSS */

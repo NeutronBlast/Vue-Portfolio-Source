@@ -60,6 +60,16 @@ export const i18n = new VueI18n({
             cf_name: 'Name',
             cf_message: 'Message',
             cf_submit: 'Submit',
+
+            /* Snakes & Ladders */
+            snakes_tit: 'Snakes & Ladders',
+            snakes_desc: 'Board game with RS232 connection for Networking I subject.',
+            snakes_goals: 'Goals',
+            snakes_l1: 'Create a graphic interface that allows the user interact with the game',
+            snakes_l2: 'Use RS232 to create a functional and stable game',
+            snakes_l3: 'Create an standard data protocol to connect with the players of the game',
+            snakes_l4: 'Manage in an efficent way the concept of addressing',
+            btn_details: 'Go to the repository',
         },
         es:{
             navHome: 'Inicio',
@@ -113,6 +123,16 @@ export const i18n = new VueI18n({
             cf_name: 'Nombre',
             cf_message: 'Mensaje',
             cf_submit: 'Enviar',
+
+            /* Snakes & Ladders */
+            snakes_tit: 'Snakes & Ladders',
+            snakes_desc: 'Juego de mesa con conexión RS232 para la materia Redes I',
+            snakes_goals: 'Objetivos',
+            snakes_l1: 'Crear una interfaz gráfica que permita al usuario interactuar con el juego',
+            snakes_l2: 'Usar conexión RS232 para crear un juego funcional y estable',
+            snakes_l3: 'Crear un protocolo de datos estándar para conectarse con los jugadores',
+            snakes_l4: 'Gestionar de manera eficiente el concepto de direccionamiento',
+            btn_details: 'Ver repositorio',
         }
     }
 })

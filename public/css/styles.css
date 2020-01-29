@@ -337,6 +337,15 @@ hr.separator{
     color: #172e54;
 }
 
+/* All work */
+.folio-card{
+    background-color: #ffffff !important;
+}
+
+.my-link{
+    color: black;
+}
+
 /* Body */
 body{
     background-color: #F3F6F6;
