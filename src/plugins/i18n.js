@@ -53,6 +53,13 @@ export const i18n = new VueI18n({
             survey_onu: 'Survey ONU',
 
             check_all: 'You can check all my projects clicking',
+
+            /* CONTACT */
+            c_title: 'Get in touch',
+            c_description: 'If you have a question, want to talk to me about a project, hire me, or just say hi, fill the form below or contact me in my social media',
+            cf_name: 'Name',
+            cf_message: 'Message',
+            cf_submit: 'Submit',
         },
         es:{
             navHome: 'Inicio',
@@ -99,6 +106,13 @@ export const i18n = new VueI18n({
             survey_onu: 'Encuesta ONU',
 
             check_all: 'Puedes visualizar todos mis proyectos cliqueando',
+
+            /* CONTACT */
+            c_title: 'Contactame',
+            c_description: 'Si tienes alguna pregunta, quieres hablar conmigo acerca de un proyecto, contratarme, o simplemente decir hola rellena el formulario de abajo o contáctame en mis redes sociales',
+            cf_name: 'Nombre',
+            cf_message: 'Mensaje',
+            cf_submit: 'Enviar',
         }
     }
 })
