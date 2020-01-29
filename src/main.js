@@ -30,9 +30,11 @@ Vue.use(VueTimeline);
 
 
 import Slider from '@jeremyhamm/vue-slider'
-
 Vue.use(Slider)
 
+import VueImg from 'v-img';
+
+Vue.use(VueImg);
 
 Vue.config.productionTip = false
 
