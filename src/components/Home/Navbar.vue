@@ -12,9 +12,13 @@
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ml-auto menu-items">
                 <b-nav-item to="/">{{$t('navHome')}}</b-nav-item>
-                <b-nav-item href="#work">{{$t('navWork')}}</b-nav-item>
                 <b-nav-item href="#about">{{$t('navAbout')}}</b-nav-item>
                 <b-nav-item href="#contact">{{$t('navContact')}}</b-nav-item>
+
+                <b-nav-item-dropdown :text="$t('navWork')" right>
+                    <b-dropdown-item href="/#work">{{$t('workSummary')}}</b-dropdown-item>
+                    <b-dropdown-item to="/portfolio">{{$t('portfolio')}}</b-dropdown-item>
+                </b-nav-item-dropdown>
 
                 <b-nav-item-dropdown :text="$t('navLang')" right>
                     <b-dropdown-item @click="setLocale('en')"><flag iso="us"></flag> English</b-dropdown-item>

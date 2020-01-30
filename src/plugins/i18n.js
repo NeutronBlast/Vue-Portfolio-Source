@@ -10,6 +10,8 @@ export const i18n = new VueI18n({
         en:{
             navHome: 'Home',
             navWork: 'Work',
+            workSummary: 'Summary of my projects',
+            portfolio: 'Portfolio',
             navAbout: 'About',
             navContact: 'Contact',
             navLang: 'Language',
