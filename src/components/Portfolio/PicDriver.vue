@@ -41,36 +41,36 @@
                 </tr>
                 <tr>
                     <th scope="row">1</th>
-                    <td>16 {{$t('pic_com3_4')}}</td>
+                    <td>{{$t('pic_com3')}}</td>
                 </tr>
                 <tr>
                     <th scope="row">1</th>
-                    <td>13</td>
+                    <td>{{$t('pic_com4')}}</td>
                 </tr>
                 <tr>
                     <th scope="row">1</th>
-                    <td>12</td>
+                    <td>{{$t('pic_com5')}}</td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
-                    <td>17</td>
+                    <td>{{$t('pic_com6')}}</td>
                 </tr>
                 <tr>
                     <th scope="row">4</th>
-                    <td>17</td>
+                    <td>{{$t('pic_com7')}}</td>
                 </tr>
                 <tr>
                     <th scope="row">5</th>
-                    <td>17</td>
+                    <td>{{$t('pic_com8')}}</td>
                 </tr>
                 <tr>
                     <th scope="row">4</th>
-                    <td>17</td>
+                    <td>{{$t('pic_com9')}}</td>
                 </tr>
 
                 <tr>
                     <th scope="row">1</th>
-                    <td>17</td>
+                    <td>{{$t('pic_com10')}}</td>
                 </tr>
             </tbody>
         </table>
