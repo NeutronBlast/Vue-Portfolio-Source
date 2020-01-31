@@ -156,6 +156,30 @@ export const i18n = new VueI18n({
             tt_download1: 'Download the first part of the documentation. It contains: Analysis of potential users, competitor analysis, various diagrams and activity diagrams and card sorting sessions',
             tt_download2: 'Download the second part of the documentation. It contains: Sketches, storyboards, wirefrimes, usability tests, mockups, heuristic evaluation',
             tt_downloadbtn: 'Download',
+
+
+            /* File system */
+
+            osf_tit: 'File system and signal management',
+            osf_desc: 'Using UNIX system calls and tools, this console application called els (enhanced - ls) prints report files with the most important information of directories and subdirectories where the application is located', 
+            osf_date: 'July 7th, 2019',
+            osf_info: 'The information that will be shown in the report files is the following',
+            osf_info1: 'Absolute path of the directory',
+            osf_info2: 'Permissions, as they are shown when you execute the following command',
+            osf_info3: "from the directory's owner",
+            osf_info4: 'Last modified date',
+            osf_info5: 'Last access date',
+            osf_info6: 'Number of files contained in the directory (including subdirectories)',
+            osf_info7: 'Number of total bytes occupied by the files contained in that directory (does not include subdirectories)',
+            osf_implementation: 'Detalles de implementación',
+            osf_im1:'The file name of each report done by a child process will be generated with its PID and a .txt extension (PID.txt)',
+            osf_im2: 'In case of finding a .dmp file, this has to be deleted and there should be added its information to the report, which includes path, last modified date and size',
+            osf_im3: 'The final process should create a process for each subdirectory that exists in the directory where the project is executed. As it should exist a child process for each subidrectory',
+            osf_im4: 'Each child process should generate a report with the information specified previously from the subdirectory that it is assigned to it',
+            osf_im5: 'The Parent process will generate a final report with its directory information and the global information from each child process',
+            osf_im6: 'The Parent process should have a signal management that avoids that the process is killed with CTRL+C from the console',
+
+
             btn_details: 'Go to the repository',
             resources: 'Resources',
             screenshots: 'Screenshots',
@@ -306,6 +330,26 @@ export const i18n = new VueI18n({
             tt_download2: 'Descargar segunda parte de la documentación, la cual contiene: Bosquejos (sketches), storyboards, wireframes, pruebas de usabilidad, mockups, evaluación heurística',
             tt_downloadbtn: 'Descargar',
 
+            /* File system */
+
+            osf_tit: 'Manejo de archivos y señales',
+            osf_desc: 'Utilizando las herramientas y llamadas al sistema de UNIX esta aplicación de consola llamada els (enhanced - ls) que imprime archivos reporte con la información más importante de los directorios y subdirectorios donde se encuentre la aplicación',
+            osf_date: '7 de Julio de 2019',
+            osf_info: 'La información que se mostrará en los archivos reportes generado es la siguiente',
+            osf_info1: 'Path absoluto del directorio',
+            osf_info2: 'Permisos, tal y como son mostrados cuando ejecutas el comando',
+            osf_info3: 'del dueño del directorio',
+            osf_info4: 'Fecha de última modificación',
+            osf_info5: 'Fecha de último acceso',
+            osf_info6: 'Número total de archivos contenidos (incluye subdirectorios)',
+            osf_info7: 'Número total de bytes ocupados por el directorio (no incluye subdirectorios)',
+            osf_implementation: 'Detalles de implementación',
+            osf_im1:'El nombre del archivo reporte de cada proceso hijo se generará con su PID y txt como extensión (PID.txt)',
+            osf_im2:'En caso de encontrar un archivo .dmp durante el recorrido, éste deberá ser eliminado y agregar al reporte la información del directorio donde se encontraba, su fecha de modificación y el tamaño.',
+            osf_im3: 'El proceso principal deberá crear un proceso por cada subdirectorio que exista en el directorio donde se ejecute el programa. Es decir que deberá existir un proceso hijo por cada subdirectorio existente en el directorio de ejecución.',
+            osf_im4: 'Cada proceso hijo deberá generar un reporte con la información descrita en el punto anterior a partir del subdirectorio del cual es responsable. ',
+            osf_im5: 'El proceso Padre generará un reporte final con la información de su directorio e información global para cada uno de los subdirectorios',
+            osf_im6: 'El proceso Padre deberá instalar un manejador de señales para evitar que sea interrumpido con CTRLC desde la consola.',
 
             btn_details: 'Ver repositorio',
             resources: 'Recursos',

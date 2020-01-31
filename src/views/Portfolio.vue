@@ -2,11 +2,12 @@
 <div id="all">
     <br><br>
     <div class="container">
-        <PerCapital></PerCapital>
+        <PerCapital></PerCapital><hr>
         <SnakesLadders></SnakesLadders><hr>
         <ReadingClub></ReadingClub><hr>
-        <PicDriver></PicDriver>
-        <TTProto></TTProto>
+        <PicDriver></PicDriver><hr>
+        <TTProto></TTProto><hr>
+        <OSFiles></OSFiles><hr>
         <br><br><br>
     </div>
     <MyFooter></MyFooter>
@@ -19,6 +20,8 @@ import PicDriver from '@/components/Portfolio/PicDriver.vue'
 import ReadingClub from '@/components/Portfolio/ReadingClub.vue'
 import PerCapital from '@/components/Portfolio/PerCapital.vue'
 import TTProto from '@/components/Portfolio/TTProto.vue'
+import OSFiles from '@/components/Portfolio/OSFiles.vue'
+//import Proveneet from '@/components/Portfolio/Proveneet.vue'
 import MyFooter from '@/components/Home/Footer.vue'
 export default {
     components:{
@@ -28,6 +31,8 @@ export default {
         ReadingClub,
         PerCapital,
         TTProto,
+        OSFiles,
+        //Proveneet,
     }
 }
 </script>

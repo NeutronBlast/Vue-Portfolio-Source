@@ -350,6 +350,10 @@ hr.separator{
     height: 250px;
 }
 
+code{
+    color: #3AA4F6;
+}
+
 /* Body */
 body{
     background-color: #F3F6F6;
