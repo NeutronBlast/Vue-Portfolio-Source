@@ -59,7 +59,7 @@
     </b-row>
     <b-row>
         <b-col cols="12" md="6" class="mt-3">
-            <b-card>
+            <b-card class="download-card">
                 <b-card-text align="center">
                     <font-awesome-icon icon="book" size="4x"></font-awesome-icon>
                     <br><br>
@@ -73,13 +73,12 @@
         </b-col>
 
         <b-col cols="12" md="6" class="mt-3">
-            <b-card>
+            <b-card class="download-card">
                 <b-card-text align="center">
                     <font-awesome-icon icon="book" size="4x"></font-awesome-icon>
                     <br><br>
                     <p class="text-justify">
                         {{$t('tt_download2')}}
-                        <br><br>
                     </p>
                     
                     <b-button variant="primary">{{$t('tt_downloadbtn')}}</b-button>
