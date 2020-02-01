@@ -8,7 +8,8 @@
         <PicDriver></PicDriver><hr>
         <TTProto></TTProto><hr>
         <OSFiles></OSFiles><hr>
-        <Proveneet></Proveneet>
+        <Proveneet></Proveneet><hr>
+        <OSPipes></OSPipes><hr>
         <br><br><br>
     </div>
     <MyFooter></MyFooter>
@@ -23,6 +24,7 @@ import PerCapital from '@/components/Portfolio/PerCapital.vue'
 import TTProto from '@/components/Portfolio/TTProto.vue'
 import OSFiles from '@/components/Portfolio/OSFiles.vue'
 import Proveneet from '@/components/Portfolio/Proveneet.vue'
+import OSPipes from '@/components/Portfolio/OSPipes.vue'
 import MyFooter from '@/components/Home/Footer.vue'
 export default {
     components:{
@@ -34,6 +36,7 @@ export default {
         TTProto,
         OSFiles,
         Proveneet,
+        OSPipes,
     }
 }
 </script>
