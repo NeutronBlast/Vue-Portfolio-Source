@@ -67,7 +67,9 @@
                         {{$t('tt_download1')}}
                     </p>
 
-                    <b-button variant="primary">{{$t('tt_downloadbtn')}}</b-button>
+                    <a :href="require('../../assets/all-work/tt-proto/Part-One.pdf')" download>
+                        <b-button variant="primary">{{$t('tt_downloadbtn')}}</b-button>
+                    </a>
                 </b-card-text>
             </b-card>
         </b-col>
@@ -81,7 +83,9 @@
                         {{$t('tt_download2')}}
                     </p>
                     
-                    <b-button variant="primary">{{$t('tt_downloadbtn')}}</b-button>
+                    <a :href="require('../../assets/all-work/tt-proto/Part-Two.pdf')" download>
+                        <b-button variant="primary">{{$t('tt_downloadbtn')}}</b-button>
+                    </a>
 
                 </b-card-text>
             </b-card>

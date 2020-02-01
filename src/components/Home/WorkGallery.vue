@@ -59,7 +59,7 @@
             <b-col sm="12" md="4" lg="4" xs="12">
                 <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/proveneet.png`)" img-alt="Image" img-top>
                     <template v-slot:header>
-                        <a href="" class="work-link text-center">
+                        <a href="https://github.com/metalsonic21/IS-Proveneet" class="work-link text-center">
                             <h5 class="mb-0"><strong>Proveneet</strong></h5>
                         </a>
                     </template>

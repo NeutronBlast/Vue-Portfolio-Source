@@ -3,90 +3,99 @@
     <br><br>
     <b-row class="mx-auto" id="snakes-ladders">
         <b-col md="6" lg="6" sm="12">
-            <b-img :src="require(`../../assets/all-work/snakesladders.png`)" fluid alt="Fluid image"></b-img>
+            <b-img :src="require(`../../assets/all-work/proveneet/welcome.png`)" fluid alt="Fluid image"></b-img>
         </b-col>
 
         <b-col md="6" lg="6" sm="12">
-            <h1>{{$t('snakes_tit')}}</h1>
-            {{$t('snakes_desc')}}<br><br>
+            <h1>Proveneet</h1>
+            {{$t('prov_desc')}}<br><br>
 
-            <strong></strong> {{$t('snakes_goals')}}
             <ul>
-                <li>{{$t('snakes_l1')}}</li>
-                <li>{{$t('snakes_l2')}}</li>
-                <li>{{$t('snakes_l3')}}</li>
-                <li>{{$t('snakes_l4')}}</li>
+                <li><strong>{{$t('prov_c1')}}: </strong>{{$t('prov_c1d')}}</li>
+                <li><strong>{{$t('prov_c2')}}: </strong>{{$t('prov_c2d')}}</li>
+                <li><strong>{{$t('prov_c3')}}: </strong>{{$t('prov_c3d')}}</li>
+                <li><strong>{{$t('prov_c4')}}: </strong>{{$t('prov_c4d')}}</li>
             </ul>
-            <a href="https://github.com/metalsonic21/N1-SnakesLadders" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
+            <a href="https://github.com/metalsonic21/IS-Proveneet" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
         </b-col>
     </b-row>
     <b-row class="ml-3 mr-3">
         <p>
-            <small>{{$t('snakes_date')}}</small>
+            <small>{{$t('prov_date')}}</small>
             <br>
-            <small> <strong>{{$t('resources')}}</strong> C#</small>
+            <small> <strong>{{$t('resources')}}</strong> HTML, Bootstrap 4, Javascript, PHP, MySQL</small>
         </p>
         <p class="text-justify">
-            <strong>{{$t('snakes_ptr')}}</strong><br>
+            <strong>{{$t('tt_docs')}}</strong><br>
 
-            {{$t('snakes_pr')}} <br><br>
-            {{$t('snakes_pr2')}} <br><br>
+            {{$t('prov_docs')}} <br><br>
+            <strong>{{$t('prov_ers')}} <br><br></strong>
 
-            <strong>{{$t('snakes_mt')}}</strong><br>
-            {{$t('snakes_mp')}}
+            <ul>
+                <li><strong>{{$t('prov_ers1')}}: </strong>{{$t('prov_ers1d')}}</li>
+                <li><strong>{{$t('prov_ers2')}}: </strong>{{$t('prov_ers2d')}}</li>
+                <li><strong>{{$t('prov_ers3')}}: </strong>{{$t('prov_ers3d')}}</li>
+                <li><strong>{{$t('prov_ers4')}}</strong></li>
+            </ul>
+
+            <strong>{{$t('prov_das')}}</strong><br>
+                {{$t('prov_dasd')}}
+            <ul>
+                <li>{{$t('prov_das1')}}</li>
+                <li>{{$t('prov_das2')}}</li>
+                <li>{{$t('prov_das3')}}</li>
+                <li>{{$t('prov_das4')}}</li>
+                <li>{{$t('prov_das5')}}</li>
+                <li>{{$t('prov_das6')}}</li>
+            </ul>
         </p>
 
-        <table class="table table-hover table-bordered">
-            <thead style="background-color:#BAE5FF">
-                <tr>
-                    <th scope="col">{{$t('snakes_t')}}</th>
-                    <th scope="col">{{$t('snakes_c1')}}</th>
-                    <th scope="col">{{$t('snakes_c2')}}</th>
-                    <th scope="col">{{$t('snakes_c3')}}</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>18</td>
-                    <td>46</td>
-                    <td>85</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>17</td>
-                    <td>45</td>
-                    <td>85</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>23</td>
-                    <td>54</td>
-                    <td>88</td>
-                </tr>
-                <tr>
-                    <th scope="row">4</th>
-                    <td>13</td>
-                    <td>41</td>
-                    <td>94</td>
-                </tr>
-                <tr>
-                    <th scope="row">5</th>
-                    <td>12</td>
-                    <td>48</td>
-                    <td>94</td>
-                </tr>
-                <tr>
-                    <th scope="row">6</th>
-                    <td>17</td>
-                    <td>41</td>
-                    <td>81</td>
-                </tr>
-            </tbody>
-        </table>
+        
+    </b-row>
+    <b-row>
+        <b-col cols="12">
+            <p>
+                <strong>{{$t('tt_download')}}</strong>
+            </p>
+        </b-col>
+    </b-row>
+    <b-row>
+        <b-col cols="12" md="6" class="mt-3">
+            <b-card class="download-card-prov">
+                <b-card-text align="center">
+                    <font-awesome-icon icon="book" size="4x"></font-awesome-icon>
+                    <br><br>
+                    <p class="text-center">
+                        {{$t('prov_download1')}}
+                    </p>
+                    
+                    <a :href="require('../../assets/all-work/proveneet/ERS.pdf')" download>
+                        <b-button variant="primary">{{$t('tt_downloadbtn')}}</b-button>
+                    </a>
+
+                </b-card-text>
+            </b-card>
+        </b-col>
+
+        <b-col cols="12" md="6" class="mt-3">
+            <b-card class="download-card-prov">
+                <b-card-text align="center">
+                    <font-awesome-icon icon="book" size="4x"></font-awesome-icon>
+                    <br><br>
+                    <p class="text-center">
+                        {{$t('prov_download2')}}
+                    </p>
+                    
+                    <a :href="require('../../assets/all-work/proveneet/DAS.pdf')" download>
+                        <b-button variant="primary">{{$t('tt_downloadbtn')}}</b-button>
+                    </a>
+
+                </b-card-text>
+            </b-card>
+        </b-col>
+
     </b-row>
     <br>
-
     <b-row class="mx-auto">
         <b-col cols="12">
             <p><strong>{{$t('screenshots')}}</strong></p>
@@ -95,15 +104,15 @@
 
     <b-row class="mx-auto">
         <b-col md="4" sm="12" lg="4">
-            <b-img v-img :src="require(`../../assets/all-work/snakes-ladders/one.png`)" fluid alt="Fluid image"></b-img>
+            <b-img v-img :src="require(`../../assets/all-work/proveneet/reset.png`)" fluid alt="Fluid image"></b-img>
         </b-col>
 
         <b-col md="4" sm="12" lg="4">
-            <b-img v-img :src="require(`../../assets/all-work/snakes-ladders/select.png`)" fluid alt="Fluid image"></b-img>
+            <b-img v-img :src="require(`../../assets/all-work/proveneet/providers.png`)" fluid alt="Fluid image"></b-img>
         </b-col>
 
         <b-col md="4" sm="12" lg="4">
-            <b-img v-img :src="require(`../../assets/all-work/snakes-ladders/winner.png`)" fluid alt="Fluid image"></b-img>
+            <b-img v-img :src="require(`../../assets/all-work/proveneet/products.png`)" fluid alt="Fluid image"></b-img>
         </b-col>
     </b-row>
 </div>

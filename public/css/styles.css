@@ -350,6 +350,10 @@ hr.separator{
     height: 250px;
 }
 
+.download-card-prov{
+    height: 200px;
+}
+
 code{
     color: #3AA4F6;
 }

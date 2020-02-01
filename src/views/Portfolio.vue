@@ -8,6 +8,7 @@
         <PicDriver></PicDriver><hr>
         <TTProto></TTProto><hr>
         <OSFiles></OSFiles><hr>
+        <Proveneet></Proveneet>
         <br><br><br>
     </div>
     <MyFooter></MyFooter>
@@ -21,7 +22,7 @@ import ReadingClub from '@/components/Portfolio/ReadingClub.vue'
 import PerCapital from '@/components/Portfolio/PerCapital.vue'
 import TTProto from '@/components/Portfolio/TTProto.vue'
 import OSFiles from '@/components/Portfolio/OSFiles.vue'
-//import Proveneet from '@/components/Portfolio/Proveneet.vue'
+import Proveneet from '@/components/Portfolio/Proveneet.vue'
 import MyFooter from '@/components/Home/Footer.vue'
 export default {
     components:{
@@ -32,7 +33,7 @@ export default {
         PerCapital,
         TTProto,
         OSFiles,
-        //Proveneet,
+        Proveneet,
     }
 }
 </script>
