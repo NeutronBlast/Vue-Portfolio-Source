@@ -234,6 +234,19 @@ export const i18n = new VueI18n({
             osp_usagen: 'for the version of n children',
             osp_usagetwo: 'for the version of 2 children',
 
+            /* OS Fork and Thread */
+            osft_tit: 'Concurrent programming',
+            osft_date: 'June 19th, 2019',
+            osft_d4: "This repository contains three versions of the encoding and decoding program: A sequential and two concurrent versions: One version uses processes and the other versions uses threads. For the concurrent versions a tree of processes/threads was used, it was composed by three levels: root, medium level and leaves and it works the following way: To encode the program will receive the clear text in a file and it will be encoded using caesar and Murcielago codes deleting the blank spaces. The processes/threads that will act as the leaves of the tree will apply caesar's code to their part of the text. The medium processes/threads will recover the text from the files created by their children, will concatenate their text and apply the murcielago code to their part of the text. The root process/thread will receive the encoded text part from all their children and concatenate the text that comes from the files made by their children to finally obtain the encoded text in an output file", 
+            osft_d42: "The decrypting program is exactly the opposite, as given the encoded text in a text file, the program will obtain the clean text without blank spaces. Which means that all the threads/processes that act like leaves will execute the reversed Murcielago code. The generated files will be recovered by the medium processes and will apply the reverse caesar's code. Finally, the created files will be recovered by the root process/thread which will just concatenate the files from the medium level and obtain the final text file with the clean word (without spcaes, which were deleted when the original file was encrypted).",
+            osft_usages: 'for the sequential version',
+            osft_usagep: 'for the version with processes',
+            osft_usaget: 'for the version with threads',
+            osft_where: 'Where',
+            osft_crypt: 'is for encrypting',
+            osft_and: 'and',
+            osft_decrypt: 'is for decrypting',
+
             btn_details: 'Go to the repository',
             resources: 'Resources',
             screenshots: 'Screenshots',
@@ -465,6 +478,19 @@ export const i18n = new VueI18n({
             osp_usagen: 'para la versión de n hijos',
             osp_usagetwo: 'para la versión de 2 hijos',
 
+            /* OS Fork and Thread */
+            osft_tit: 'Programación concurrente',
+            osft_date: '19 de Junio de 2019',
+            osft_d4: 'Este repositorio contiene tres versiones del programa de cifrado y descifrado de texto: una secuencial y dos versiones concurrentes: una usando procesos y otra usando hilos. Para las versiones concurrentes, se realizó con un árbol de procesos/hilos de tres niveles: raíz, intermedios y hojas, de la siguiente manera: Para cifrar se recibe el texto en claro en un archivo de texto y se transforma usando los códigos cesar y murciélago con los espacios en blanco eliminados. Los procesos/hilos hojas aplican código cesar para la primera fase de cifrado guardando sus respuestas en archivos de texto. Los procesos/hilos intermedios recuperan el texto de los archivos creados por sus procesos/hilos hijos, los concatena en orden y aplica el código murciélago para una segunda fase de substitución. El proceso/hilo raíz, recibe los textos cifrados de todos sus hijos del nivel intermedio, elimina los espacios en blancos o tabuladores y concatena ordenadamente los archivos de respuesta de cada proceso/hilo para finalmente obtener el texto cifrado y guardarlo en otro archivo de texto.',
+            osft_d42: 'El programa de descifrado es justamente en reverso, es decir, dado el texto cifrado en un archivo de texto, se obtiene el texto en claro sin blancos ni tabuladores. Es decir, los procesos/hilos hojas ejecutan el código murciélago en reverso. Los archivos de respuesta son recuperados por el nivel de procesos/hilos intermedio y aplican código cesar en reverso. Finalmente los archivos creados son recuperados por el nivel más alto que sólo concatena adecuadamente los archivos en claro del nivel intermedio y así definitivamente obtener el archivo de texto en claro sin blancos ni tabuladores (éstos fueron eliminados cuando el archivo de texto original se cifró). La línea de comandos se realizará de la siguiente forma',
+            osft_usages: 'para versión secuencial',
+            osft_usagep: 'para versión con procesos',
+            osft_usaget: 'para versión con hilos',
+            osft_where: 'Donde',
+            osft_crypt: 'es para encriptar',
+            osft_and: 'y',
+            osft_decrypt: 'es para desencriptar',
+            
             btn_details: 'Ver repositorio',
             resources: 'Recursos',
             screenshots: 'Capturas',

@@ -10,6 +10,7 @@
         <OSFiles></OSFiles><hr>
         <Proveneet></Proveneet><hr>
         <OSPipes></OSPipes><hr>
+        <OSFT></OSFT><hr>
         <br><br><br>
     </div>
     <MyFooter></MyFooter>
@@ -25,6 +26,7 @@ import TTProto from '@/components/Portfolio/TTProto.vue'
 import OSFiles from '@/components/Portfolio/OSFiles.vue'
 import Proveneet from '@/components/Portfolio/Proveneet.vue'
 import OSPipes from '@/components/Portfolio/OSPipes.vue'
+import OSFT from '@/components/Portfolio/OSFT.vue'
 import MyFooter from '@/components/Home/Footer.vue'
 export default {
     components:{
@@ -37,6 +39,7 @@ export default {
         OSFiles,
         Proveneet,
         OSPipes,
+        OSFT,
     }
 }
 </script>

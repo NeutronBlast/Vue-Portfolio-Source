@@ -3,11 +3,11 @@
     <br><br>
     <b-row class="mx-auto" id="snakes-ladders">
         <b-col md="6" lg="6" sm="12">
-            <b-img :src="require(`../../assets/all-work/os-pipes/validation.png`)" fluid alt="Fluid image"></b-img>
+            <b-img :src="require(`../../assets/all-work/os-ft/fork.png`)" fluid alt="Fluid image"></b-img>
         </b-col>
 
         <b-col md="6" lg="6" sm="12">
-            <h1>{{$t('osp_tit')}}</h1>
+            <h1>{{$t('osft_tit')}}</h1>
             {{$t('osp_desc')}}<br><br>
 
             <strong></strong> {{$t('snakes_goals')}}
@@ -17,7 +17,7 @@
                 <li>{{$t('osp_l3')}}</li>
                 <li>{{$t('osp_l4')}}</li>
             </ul>
-            <a href="https://github.com/metalsonic21/OS-Pipes" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
+            <a href="https://github.com/metalsonic21/OS-FT" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
         </b-col>
     </b-row>
     <b-row class="ml-3 mr-3">
@@ -86,20 +86,24 @@
                 </tr>
             </tbody>
         </table>
-
         <br>
 
         <p class="text-justify">
-            {{$t('osp_d4')}} <br><br>
+            {{$t('osft_d4')}} <br><br>
+
+            {{$t('osft_d42')}}<br><br>
 
             <strong>{{$t('osp_usage')}}</strong> <br>
 
-            <code>cript_p {-c/-d} {{$t('osp_nchildren')}} {{$t('osp_inputfile')}} {{$t('osp_outputfile')}}</code> {{$t('osp_usagen')}} <br>
+            <code>cript {-c/-d} {{$t('osp_inputfile')}} {{$t('osp_outputfile')}}</code> {{$t('osft_usages')}} <br>
 
-            <code>cript_p {-c/-d} {{$t('osp_inputfile')}} {{$t('osp_outputfile')}}</code> {{$t('osp_usagetwo')}} <br><br>
+            <code>cript_p {-c/-d} {{$t('osp_nchildren')}} {{$t('osp_inputfile')}} {{$t('osp_outputfile')}}</code> {{$t('osft_usagep')}} <br>
+
+            <code>cript_t {-c/-d} {{$t('osp_nchildren')}} {{$t('osp_inputfile')}} {{$t('osp_outputfile')}}</code> {{$t('osft_usaget')}} <br><br>
+
             {{$t('osft_where')}} <code> -c </code> {{$t('osft_crypt')}} {{$t('osft_and')}} <code> -d </code> {{$t('osft_decrypt')}}
-
         </p>
+    
     </b-row>
     <br>
 
@@ -111,13 +115,12 @@
 
     <b-row class="mx-auto">
         <b-col md="6" sm="12" lg="6">
-            <b-img v-img :src="require(`../../assets/all-work/os-pipes/output.png`)" fluid alt="Fluid image"></b-img>
+            <b-img v-img :src="require(`../../assets/all-work/os-ft/threadcript.png`)" fluid alt="Fluid image"></b-img>
         </b-col>
 
         <b-col md="6" sm="12" lg="6">
-            <b-img v-img :src="require(`../../assets/all-work/os-pipes/outputinput.png`)" fluid alt="Fluid image"></b-img>
+            <b-img v-img :src="require(`../../assets/all-work/os-ft/threaddc.png`)" fluid alt="Fluid image"></b-img>
         </b-col>
-
     </b-row>
 </div>
 </template>
