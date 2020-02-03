@@ -11,6 +11,9 @@
         <Proveneet></Proveneet><hr>
         <OSPipes></OSPipes><hr>
         <OSFT></OSFT><hr>
+        <CS></CS><hr>
+        <Omar></Omar><hr>
+        <Earthquake></Earthquake><hr>
         <br><br><br>
     </div>
     <MyFooter></MyFooter>
@@ -27,6 +30,9 @@ import OSFiles from '@/components/Portfolio/OSFiles.vue'
 import Proveneet from '@/components/Portfolio/Proveneet.vue'
 import OSPipes from '@/components/Portfolio/OSPipes.vue'
 import OSFT from '@/components/Portfolio/OSFT.vue'
+import CS from '@/components/Portfolio/CS.vue'
+import Omar from '@/components/Portfolio/Omar.vue'
+import Earthquake from '@/components/Portfolio/Earthquake.vue'
 import MyFooter from '@/components/Home/Footer.vue'
 export default {
     components:{
@@ -40,6 +46,9 @@ export default {
         Proveneet,
         OSPipes,
         OSFT,
+        CS,
+        Omar,
+        Earthquake,
     }
 }
 </script>
