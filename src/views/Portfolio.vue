@@ -14,6 +14,7 @@
         <CS></CS><hr>
         <Omar></Omar><hr>
         <Earthquake></Earthquake><hr>
+        <Survey></Survey>
         <br><br><br>
     </div>
     <MyFooter></MyFooter>
@@ -33,6 +34,7 @@ import OSFT from '@/components/Portfolio/OSFT.vue'
 import CS from '@/components/Portfolio/CS.vue'
 import Omar from '@/components/Portfolio/Omar.vue'
 import Earthquake from '@/components/Portfolio/Earthquake.vue'
+import Survey from '@/components/Portfolio/Survey.vue'
 import MyFooter from '@/components/Home/Footer.vue'
 export default {
     components:{
@@ -49,6 +51,7 @@ export default {
         CS,
         Omar,
         Earthquake,
+        Survey,
     }
 }
 </script>
