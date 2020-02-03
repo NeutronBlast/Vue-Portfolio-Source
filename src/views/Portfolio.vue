@@ -11,10 +11,10 @@
         <Proveneet></Proveneet><hr>
         <OSPipes></OSPipes><hr>
         <OSFT></OSFT><hr>
+        <Survey></Survey><hr>
         <CS></CS><hr>
         <Omar></Omar><hr>
         <Earthquake></Earthquake><hr>
-        <Survey></Survey>
         <br><br><br>
     </div>
     <MyFooter></MyFooter>

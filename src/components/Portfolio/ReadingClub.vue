@@ -35,7 +35,7 @@
 
             <strong>{{$t('reading_g2')}}</strong><br>
             {{$t('reading_g2d')}} <br>
-            
+
             {{$t('reading_g2d2')}}
             <br><br>
 
@@ -46,11 +46,67 @@
             <strong>{{$t('reading_plays')}}</strong><br>
             {{$t('reading_p1')}} <br>
             {{$t('reading_p2')}} <br><br>
+
+            <strong>{{$t('tt_docs')}}</strong><br>
+            {{$t('prov_docs')}} <br>
+
+            <ul>
+                <li>{{$t('reading_docs1')}}</li>
+                <li>{{$t('reading_docs2')}}</li>
+            </ul>
+
         </p>
 
-        </b-row>
-    <br>
+    </b-row>
 
+    <strong>{{$t('tt_download')}}</strong><br>
+    <b-row>
+        <b-col cols="12" md="6" class="mt-3">
+            <b-card class="download-card-reading">
+                <b-card-text align="center">
+                    <font-awesome-icon icon="book" size="4x"></font-awesome-icon>
+                    <br><br>
+                    <p class="text-justify">
+                        {{$t('reading_docs1')}}
+                    </p>
+
+                    <a :href="require('../../assets/all-work/reading-club/Requeriments.pdf')" download>
+                        <b-button variant="primary">{{$t('tt_downloadbtn')}}</b-button>
+                    </a>
+                </b-card-text>
+            </b-card>
+        </b-col>
+
+        <b-col cols="12" md="6" class="mt-3">
+            <b-card class="download-card-reading">
+                <b-card-text align="center">
+                    <font-awesome-icon icon="book" size="4x"></font-awesome-icon>
+                    <br><br>
+                    <p class="text-center">
+                        {{$t('reading_download2')}} <br><br>
+                    </p>
+
+                    <a :href="require('../../assets/all-work/reading-club/Relational.pdf')" download>
+                        <b-button variant="primary">{{$t('tt_downloadbtn')}}</b-button>
+                    </a>
+
+                </b-card-text>
+            </b-card>
+        </b-col>
+
+    </b-row>
+    <br>
+    <b-row>
+        <b-col cols="12">
+            <p><strong>{{$t('reading_er')}}</strong></p>
+
+            <b-img v-img :src="require(`../../assets/all-work/reading-club/ER.png`)" fluid alt="Fluid image"></b-img>
+            <a :href="require('../../assets/all-work/reading-club/ER.png')" download>{{$t('reading_fi')}}</a>
+
+        </b-col>
+    </b-row>
+
+    <br>
     <b-row class="mx-auto">
         <b-col cols="12">
             <p><strong>{{$t('screenshots')}}</strong></p>

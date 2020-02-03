@@ -119,6 +119,11 @@ export const i18n = new VueI18n({
             reading_plays:'Plays',
             reading_p1: 'In each play every club member and members from associated clubs can participate – normally, each play is related to the story of a book that was previously analyzed by the club (like a theater play). The cost of the ticket is decided by each club and can be different depending on the play. Sometimes the same club has some spaces that can be used for the play (an auditorium or a venue) or are just rented. The capacity of people varies depending on the place', 
             reading_p2: 'For each play it should be registered from which book is making reference, a summary of its story, the characters (and actors), planned plays (date for each play, place, hour and length). In each completed play the guests will vote for the best actor (ties are allowed), and score the play with a maximum of 5 stars. It is part of the basic information from a club the list of plays completed, its average score (according to the individual score obtained in each play) and the total of earnings received from the ticket sales (there are plays that can be still done and others that are not available anymore)',
+            reading_docs1: "Activity diagrams of the business processes that will be automatized, reports' design and specification of non functional requeriments",
+            reading_docs2: 'Entity relation model and relational model',
+            reading_download2: 'Relational model',
+            reading_er: 'Entity relation model',
+            reading_fi: 'Download original sized image',
 
 
             /* Per Capital */
@@ -323,7 +328,15 @@ export const i18n = new VueI18n({
             eq_five: 'Check a geographic region',
             eq_fived: 'The program must show in screen, in a legible way all the data loaded in a specific geographic region.',
 
+
+            /* Survey */
+            survey_tit: 'Survey about entrepreneurship in women',
+            survey_desc: 'ONU Women, is part of the Win-Win Program (program associated with the OIT and financed by the European Union), and PROCOMER did a survey about aspects related with the offer of products, services and necessities that businesses leaded by women in Costa Rica have', 
+            survey_date: 'May 25th, 2019',
             btn_details: 'Go to the repository',
+
+
+
             resources: 'Resources',
             screenshots: 'Screenshots',
         },
@@ -437,7 +450,12 @@ export const i18n = new VueI18n({
             reading_plays:'Obras actuadas',
             reading_p1: 'En estas actuaciones participan indistintamente los miembros del club y también pudieran participar integrantes de otros clubes asociados – usualmente la obra actuada se centra en la historia de algun libro previamente analizado (es como una obra de teatro). El costo de la entrada es fijada por cada club y puede variar de obra a obra. Algunas veces el mismo club tiene espacios físicos que utiliza para la presentación (auditorios o salas) o simplemente los alquilan. La capacidad de asistentes depende del auditorio o sala que tenga disponible el club. ',
             reading_p2: 'De cada obra actuada se debe saber a qué libro(s) hace referencia, tener un resumen de su argumento, el elenco (personajes y actores), calendario de presentaciones (que incluye fecha, lugar, hora inicio y duración total). En cada presentación realizada el público asistente vota por el mejor actor (pueden haber empates) y valora la obra con un máximo de 5 estrellas. Es parte de la información representativa de un club la lista de obras presentadas, su valoración promedio (según la valoración individual obtenida en cada presentación) y el ingreso total percibido hasta el momento de cada consulta realizada (hay obras que se pueden seguir presentando y otras ya tienen estatus de no activas).',
-            
+            reading_docs1: 'Diagramas de flujo de usuario de los procesos de negocio a automatizar, diseño de reportes y especificación de requerimientos no funcionales',
+            reading_docs2: 'Modelo entidad relación y modelo relacional',
+            reading_download2: 'Modelo relacional',
+            reading_er: 'Modelo entidad relación',
+            reading_fi: 'Descargar imágen en tamaño original',
+
             /* Per Capital */
             per_desc: 'Finanzas inteligentes – El momento es ahora – Invierte, avanza',
             per_desc3: 'PER CAPITAL ofrece fácil acceso a oportunidades de inversión Premium en el mercado de Capitales,Inmobiliario y de Capital de Riesgo, previamente evaluadas y aprobadas por nuestros expertos, para inversionistas institucionales y público en general.',
@@ -644,6 +662,14 @@ export const i18n = new VueI18n({
             eq_fourd: 'Dada una región y la intensidad de un terremoto el programa debe calcular, considerando todos los posibles epicentros de la región el costo promedio del terremoto. El costo promedio es calculado de la siguiente forma: La suma de las pérdidas económicas en cada casilla / Número de casillas (tamaño de la matriz)',
             eq_five: 'Consultar región geográfica',
             eq_fived: 'El programa debe mostrar en pantalla, de forma legible toda la información de una región geográfica específica',
+
+
+            /* Survey */
+            survey_tit: 'Encuesta a negocios de mujeres',
+            survey_desc: 'ONU Mujeres, en el marco de Programa Ganar-Ganar (programa conjunto con la OIT y financiado por la Unión Europea), y PROCOMER están realizando una encuesta sobre aspectos relacionados con la oferta de productos y servicios y las necesidades que tienen los negocios liderados por mujeres en Costa Rica.',
+            survey_date: '25 de Mayo de 2019',
+
+
 
 
             btn_details: 'Ver repositorio',

@@ -354,6 +354,10 @@ hr.separator{
     height: 200px;
 }
 
+.download-card-reading{
+    height:220px;
+}
+
 code{
     color: #3AA4F6;
 }
