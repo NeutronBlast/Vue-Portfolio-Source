@@ -5,7 +5,7 @@
             <template v-slot:img>
                 <img class="d-block img-fluid w-100" v-bind:src="imgPath(0)" alt="image slot">
             </template>
-            <a class="btn btn-primary check-p" href="/portfolio">{{$t('checkBtn')}}</a>
+            <router-link to="/portfolio" class="btn btn-primary check-p">{{$t('checkBtn')}}</router-link>
         </b-carousel-slide>
 
         <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment-->

@@ -8,8 +8,8 @@
         <OSFT></OSFT><hr>
         <Survey></Survey><hr>
         <div class="float-right">
-            <a href="/portfolio" class="previous mypagination">&laquo; {{$t('previous')}}</a>
-            <a href="/portfolio/page/3" class="next mypagination">{{$t('next')}} &raquo;</a>
+            <router-link to="/portfolio" class="previous mypagination">&laquo; {{$t('previous')}}</router-link>
+            <router-link to="/portfolio/page/3" class="next mypagination">{{$t('next')}} &raquo;</router-link>
         </div>
         <br><br><br>
     </div>

@@ -13,7 +13,7 @@
         <TTProto></TTProto>
         <hr>
         <div class="float-right">
-            <a href="/portfolio/page/2" class="next mypagination">{{$t('next')}} &raquo;</a>
+            <router-link to="/portfolio/page/2" class="next mypagination">{{$t('next')}} &raquo;</router-link>
         </div>
         <br><br><br>
     </div>

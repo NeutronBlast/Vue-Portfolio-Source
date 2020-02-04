@@ -6,7 +6,7 @@
         <Omar></Omar><hr>
         <Earthquake></Earthquake><hr>
         <div class="float-right">
-            <a href="/portfolio/page/2" class="previous mypagination">&laquo; {{$t('previous')}}</a>
+            <router-link to="/portfolio/page/2" class="previous mypagination">&laquo; {{$t('previous')}}</router-link>
         </div>
         <br><br><br>
     </div>
