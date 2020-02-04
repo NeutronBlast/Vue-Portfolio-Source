@@ -28,10 +28,6 @@ export default {
             sliding: null,
         }
     },
-
-    created(){
-      console.log(this.slides.width);
-    },
     methods: {
         imgPath(index){
           if (index == 0){
