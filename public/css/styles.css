@@ -281,7 +281,7 @@
     }
 }
 
-@media(min-width:0px) and (max-width:408px){
+@media(min-width:369px) and (max-width:408px){
     .check-p{
         position: absolute;
         top:-270px;
@@ -291,6 +291,20 @@
     .check-i{
         position: absolute;
         top:-220px;
+        left:-30px;
+    }
+}
+
+@media(min-width:0px) and (max-width:369px){
+    .check-p{
+        position: absolute;
+        top:-250px;
+        left:-30px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-200px;
         left:-30px;
     }
 }

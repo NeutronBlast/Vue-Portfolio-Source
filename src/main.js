@@ -36,6 +36,10 @@ import VueImg from 'v-img';
 
 Vue.use(VueImg);
 
+var VueScrollTo = require('vue-scrollto');
+ 
+Vue.use(VueScrollTo)
+
 Vue.config.productionTip = false
 
 /* CSS */
