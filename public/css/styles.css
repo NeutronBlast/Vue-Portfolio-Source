@@ -358,6 +358,31 @@ hr.separator{
     height:220px;
 }
 
+.mypagination {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  .mypagination:hover {
+    background-color: #3AA4F6;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #BAE5FF;
+    color: black;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
 code{
     color: #3AA4F6;
 }

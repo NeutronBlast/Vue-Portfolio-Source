@@ -335,7 +335,8 @@ export const i18n = new VueI18n({
             survey_date: 'May 25th, 2019',
             btn_details: 'Go to the repository',
 
-
+            previous: 'Previous',
+            next: 'Next',
 
             resources: 'Resources',
             screenshots: 'Screenshots',
@@ -669,7 +670,8 @@ export const i18n = new VueI18n({
             survey_desc: 'ONU Mujeres, en el marco de Programa Ganar-Ganar (programa conjunto con la OIT y financiado por la Unión Europea), y PROCOMER están realizando una encuesta sobre aspectos relacionados con la oferta de productos y servicios y las necesidades que tienen los negocios liderados por mujeres en Costa Rica.',
             survey_date: '25 de Mayo de 2019',
 
-
+            previous: 'Anterior',
+            next: 'Siguiente',
 
 
             btn_details: 'Ver repositorio',
