@@ -78,7 +78,7 @@
                         </b-col>
 
                         <b-col cols="9">
-                            {{$t('job_one_info')}} <a href="percapital.merakengineers.com/">{{$t('job_one_link')}}</a>
+                            {{$t('job_one_info')}} <a href="http://percapital.merakengineers.com">{{$t('job_one_link')}}</a>
                             <br><br>
                             <b-row>
                                 <b-col cols="6">
