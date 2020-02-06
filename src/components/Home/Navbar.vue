@@ -16,6 +16,7 @@
                 <b-nav-item href="#" v-scroll-to="'#contact'">{{$t('navContact')}}</b-nav-item>
 
                 <b-nav-item to="/portfolio">{{$t('portfolio')}}</b-nav-item>
+                <b-nav-item to="/resources">{{$t('navResources')}}</b-nav-item>
 
                 <b-nav-item-dropdown :text="$t('navLang')" right>
                     <b-dropdown-item @click="setLocale('en')"><flag iso="us"></flag> English</b-dropdown-item>

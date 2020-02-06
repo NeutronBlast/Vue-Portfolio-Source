@@ -15,6 +15,7 @@ export const i18n = new VueI18n({
             navAbout: 'About',
             navContact: 'Contact',
             navLang: 'Language',
+            navResources: 'Resources',
 
             /* SLIDE */
 
@@ -338,6 +339,13 @@ export const i18n = new VueI18n({
             previous: 'Previous',
             next: 'Next',
 
+            p1ex_tit: 'Basic C programming exercises',
+            p1ex_desc: 'Various programs written in C that put in practice a lot of programming basic concepts like string manipulation, array manipulation, menus and linked lists. The repository contains two folders, one folder for separated programs for each basic algorithm (not including linked list management) and one folder that contains programs that have interactive menus with various functions',
+            p1ex_date: 'February 5th, 2020',
+
+            resources_desc: "It's a bunch of posts which goal is to give resources that work as reference for beginner and mid-level programmers, it contains short projects, exercises, practices and other things that will be implemented in the future",
+            resource_click: 'To see all the resources I have published click',
+
             resources: 'Resources',
             screenshots: 'Screenshots',
         },
@@ -349,6 +357,7 @@ export const i18n = new VueI18n({
             navAbout: 'Información',
             navContact: 'Contacto',
             navLang: 'Idioma',
+            navResources: 'Recursos',
 
             /* SLIDE */
 
@@ -673,6 +682,12 @@ export const i18n = new VueI18n({
             previous: 'Anterior',
             next: 'Siguiente',
 
+            p1ex_tit: 'Ejercicios básicos de programación en C',
+            p1ex_desc: 'Varios programas escritos en C que ponen en práctica varios conceptos básicos de programación como manipulación de strings, arrays y listas enlazadas. El repositorio contiene dos carpetas, una carpeta para programas separados para cada algoritmo básico (no incluye los programas de manejo de listas) y una carpeta que contiene programas que tienen menús interactivos con varias funciones',
+            p1ex_date: '5 de Febrero de 2020',
+
+            resources_desc:'Es un conjunto de posts que tienen como fin aportar recursos que sirvan como referencia para programadores novatos y de nivel medio, contiene proyectos cortos, ejercicios, prácticas, entre otras cosas que serán implementadas a futuro',
+            resource_click: 'Para echar un vistazo a los recursos que he publicado, cliquea',
 
             btn_details: 'Ver repositorio',
             resources: 'Recursos',

@@ -1,5 +1,5 @@
 <template>
-<div id="contact">
+<div id="contact" class="white-section">
     <div class="container">
         <b-row>
             <b-col cols="12">
