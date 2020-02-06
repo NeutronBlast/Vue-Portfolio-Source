@@ -340,8 +340,24 @@ export const i18n = new VueI18n({
             next: 'Next',
 
             p1ex_tit: 'Basic C programming exercises',
-            p1ex_desc: 'Various programs written in C that put in practice a lot of programming basic concepts like string manipulation, array manipulation, menus and linked lists. The repository contains two folders, one folder for separated programs for each basic algorithm (not including linked list management) and one folder that contains programs that have interactive menus with various functions',
+            p1ex_desc: 'Various programs written in C that put in practice a lot of programming basic concepts like string manipulation, array manipulation, menus and linked lists. The repository contains two folders, one folder for separated programs for each basic algorithm (not including linked list management) and one folder that contains programs that have interactive menus with various functions. Originally coded and compiled in Visual Studio 2017, corrected and recompiled in Visual Studio 2019',
             p1ex_date: 'February 5th, 2020',
+
+            p3ex_tit: 'Object Oriented programming exercises',
+            p3ex_desc: 'Various programs written in Java that put in practice a lot of object oriented programming concepts like classes, inheritance, overloading, overriding, etc. The repository contains various folders (each folder is a different program). Compiled with NetBeans IDE 8.2',
+            p3ex_date: 'January 10th, 2019',
+
+            nm_tit: 'Numeric methods',
+            nm_desc: "Various numeric methods' algorithms modeled in MATLAB",
+            nm_includes: 'The algorithms modeled were',
+            nm_1: 'Newton interpolation',
+            nm_2: 'Polynomial interpolation',
+            nm_3: 'Exponential regression',
+            nm_4: 'Polynomial regression',
+            nm_5: 'Simpson 1/3',
+            nm_6: 'Simpson 3/8',
+            nm_7: 'Trapezoidal rule',
+            nm_date: 'January 21st, 2020',
 
             resources_desc: "It's a bunch of posts which goal is to give resources that work as reference for beginner and mid-level programmers, it contains short projects, exercises, practices and other things that will be implemented in the future",
             resource_click: 'To see all the resources I have published click',
@@ -683,11 +699,29 @@ export const i18n = new VueI18n({
             next: 'Siguiente',
 
             p1ex_tit: 'Ejercicios básicos de programación en C',
-            p1ex_desc: 'Varios programas escritos en C que ponen en práctica varios conceptos básicos de programación como manipulación de strings, arrays y listas enlazadas. El repositorio contiene dos carpetas, una carpeta para programas separados para cada algoritmo básico (no incluye los programas de manejo de listas) y una carpeta que contiene programas que tienen menús interactivos con varias funciones',
+            p1ex_desc: 'Varios programas escritos en C que ponen en práctica varios conceptos básicos de programación como manipulación de strings, arrays y listas enlazadas. El repositorio contiene dos carpetas, una carpeta para programas separados para cada algoritmo básico (no incluye los programas de manejo de listas) y una carpeta que contiene programas que tienen menús interactivos con varias funciones. Originalmente realizado y compilado en Visual Studio 2017, corregido y recompilado en Visual Studio 2019',
             p1ex_date: '5 de Febrero de 2020',
+
+            p3ex_tit: 'Ejercicios de programación orientada a objetos',
+            p3ex_desc: 'Varios programas escritos en Java que ponen en práctica algunos conceptos de programación orientada a objetos como clases, herencia, sobrecarga, sobreescritura, etc. El repositorio contiene varias carpetas (cada carpeta es un programa distinto). Compilado con NetBeans IDE 8.2',
+            p3ex_date: '10 de Enero de 2019',
+
+            nm_tit: 'Métodos numéricos',
+            nm_desc: "Varios algoritmos de métodos numéricos modelados en MATLAB",
+            nm_includes: 'Los algoritmos modelados fueron',
+            nm_1: 'Interpolación de Newton',
+            nm_2: 'Interpolación polinómica',
+            nm_3: 'Regresión exponencial',
+            nm_4: 'Regresión polinómica',
+            nm_5: 'Simpson 1/3',
+            nm_6: 'Simpson 3/8',
+            nm_7: 'Regla del trapecio',
+            nm_date: '21 de Enero de 2020',
 
             resources_desc:'Es un conjunto de posts que tienen como fin aportar recursos que sirvan como referencia para programadores novatos y de nivel medio, contiene proyectos cortos, ejercicios, prácticas, entre otras cosas que serán implementadas a futuro',
             resource_click: 'Para echar un vistazo a los recursos que he publicado, cliquea',
+
+            
 
             btn_details: 'Ver repositorio',
             resources: 'Recursos',
