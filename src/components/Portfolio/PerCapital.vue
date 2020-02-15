@@ -10,7 +10,7 @@
             {{$t('per_desc')}}<br><br>
             {{$t('per_desc3')}}<br><br>
             {{$t('per_desc4')}}<br><br>
-            <a href="http://percapital.merakengineers.com" class="btn btn-primary float-right">{{$t('btn_detailsw')}}</a>
+            <a href="http://per-capital.merakengineers.com" class="btn btn-primary float-right">{{$t('btn_detailsw')}}</a>
         </b-col>
     </b-row>
     <b-row class="ml-3 mr-3">
