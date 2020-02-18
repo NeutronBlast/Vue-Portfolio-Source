@@ -12,8 +12,6 @@
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ml-auto menu-items">
                 <b-nav-item to="/">{{$t('navHome')}}</b-nav-item>
-                <b-nav-item href="#" v-scroll-to="'#about'">{{$t('navAbout')}}</b-nav-item>
-                <b-nav-item href="#" v-scroll-to="'#contact'">{{$t('navContact')}}</b-nav-item>
 
                 <b-nav-item to="/portfolio">{{$t('portfolio')}}</b-nav-item>
                 <b-nav-item to="/resources">{{$t('navResources')}}</b-nav-item>
