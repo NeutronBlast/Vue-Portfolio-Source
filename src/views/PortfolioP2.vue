@@ -2,11 +2,11 @@
 <div id="all">
     <br><br>
     <div class="container">
+        <TTProto></TTProto><hr>
         <OSFiles></OSFiles><hr>
         <Proveneet></Proveneet><hr>
         <OSPipes></OSPipes><hr>
         <OSFT></OSFT><hr>
-        <Survey></Survey><hr>
         <div class="float-right">
             <router-link to="/portfolio" class="previous mypagination">&laquo; {{$t('previous')}}</router-link>
             <router-link to="/portfolio/page/3" class="next mypagination">{{$t('next')}} &raquo;</router-link>
@@ -19,19 +19,19 @@
 </template>
 
 <script>
+import TTProto from '@/components/Portfolio/TTProto.vue'
 import OSFiles from '@/components/Portfolio/OSFiles.vue'
 import Proveneet from '@/components/Portfolio/Proveneet.vue'
 import OSPipes from '@/components/Portfolio/OSPipes.vue'
 import OSFT from '@/components/Portfolio/OSFT.vue'
-import Survey from '@/components/Portfolio/Survey.vue'
 import MyFooter from '@/components/Home/Footer.vue'
 export default {
     components:{
+        TTProto,
         OSFiles,
         Proveneet,
         OSPipes,
         OSFT,
-        Survey,
         MyFooter,
     },
 }

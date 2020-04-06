@@ -13,7 +13,7 @@
                 <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/snakes.png`)" img-alt="Image" img-top>
                     <template v-slot:header>
                         <a href="" class="work-link text-center">
-                            <a href="https://github.com/metalsonic21/N1-SnakesLadders" class="my-link"><h5 class="mb-0"><strong>{{$t('snakes_ladders')}}</strong></h5></a>
+                            <a href="https://github.com/NeutronBlast/N1-SnakesLadders" class="my-link"><h5 class="mb-0"><strong>{{$t('snakes_ladders')}}</strong></h5></a>
                         </a>
                     </template>
 
@@ -23,7 +23,7 @@
             <b-col sm="12" md="4" lg="4" xs="12">
                 <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/picdriver.png`)" img-alt="Image" img-top>
                     <template v-slot:header>
-                        <a href="https://github.com/metalsonic21/CA-Pic-Driver" class="work-link text-center">
+                        <a href="https://github.com/NeutronBlast/CA-Pic-Driver" class="work-link text-center">
                             <h5 class="mb-0"><strong>{{$t('pic_driver')}}</strong></h5>
                         </a>
                     </template>
@@ -34,7 +34,7 @@
             <b-col sm="12" md="4" lg="4" xs="12">
                 <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/readingclub.png`)" img-alt="Image" img-top>
                     <template v-slot:header>
-                        <a href="https://github.com/metalsonic21/SBD1-Reading-club" class="work-link text-center">
+                        <a href="https://github.com/NeutronBlast/SBD1-Reading-club" class="work-link text-center">
                             <h5 class="mb-0"><strong>{{$t('reading_club')}}</strong></h5>
                         </a>
                     </template>
@@ -48,7 +48,7 @@
             <b-col sm="12" md="4" lg="4" xs="12">
                 <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/percapital.png`)" img-alt="Image" img-top>
                     <template v-slot:header>
-                        <a href="http://per-capital.merakengineers.com" class="work-link text-center">
+                        <a href="http://per-capital.com" class="work-link text-center">
                             <h5 class="mb-0"><strong>Per Capital</strong></h5>
                         </a>
                     </template>
@@ -59,7 +59,7 @@
             <b-col sm="12" md="4" lg="4" xs="12">
                 <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/proveneet.png`)" img-alt="Image" img-top>
                     <template v-slot:header>
-                        <a href="https://github.com/metalsonic21/IS-Proveneet" class="work-link text-center">
+                        <a href="https://github.com/NeutronBlast/IS-Proveneet" class="work-link text-center">
                             <h5 class="mb-0"><strong>Proveneet</strong></h5>
                         </a>
                     </template>
@@ -68,10 +68,10 @@
             </b-col>
 
             <b-col sm="12" md="4" lg="4" xs="12">
-                <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/survey.png`)" img-alt="Image" img-top>
+                <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/template.jpg`)" img-alt="Image" img-top>
                     <template v-slot:header>
-                        <a href="https://github.com/metalsonic21/SurveyONUMujeres" class="work-link text-center">
-                            <h5 class="mb-0"><strong>{{$t('survey_onu')}}</strong></h5>
+                        <a href="https://github.com/NeutronBlast/Neutron-Landing" class="work-link text-center">
+                            <h5 class="mb-0"><strong>{{$t('neutron_landing')}}</strong></h5>
                         </a>
                     </template>
 

@@ -54,6 +54,7 @@ export const i18n = new VueI18n({
             pic_driver: 'Volume and Brightness controller',
             reading_club: 'Reading Club',
             survey_onu: 'Survey ONU',
+            neutron_landing: 'Landing Page Template',
 
             check_all: 'You can check all my projects clicking',
 
@@ -126,6 +127,9 @@ export const i18n = new VueI18n({
             reading_er: 'Entity relation model',
             reading_fi: 'Download original sized image',
 
+            /* Neutron Landing */
+            neutron_desc: 'Beautiful and simple Landing Page template for your agency built with Materialize CSS and HTML5, fully responsive, no use of external libraries nor complicated Javascript code.',
+            neutron_date: 'April 6th, 2020',
 
             /* Per Capital */
             per_desc: 'Smart Finance - The time is now - Invest, move forward',
@@ -411,6 +415,7 @@ export const i18n = new VueI18n({
             pic_driver: 'Controlador de brillo y volumen',
             reading_club: 'Los clubes de lectura',
             survey_onu: 'Encuesta ONU',
+            neutron_landing: 'Plantilla de Landing Page',
 
             check_all: 'Puedes visualizar todos mis proyectos cliqueando',
 
@@ -481,6 +486,9 @@ export const i18n = new VueI18n({
             reading_download2: 'Modelo relacional',
             reading_er: 'Modelo entidad relación',
             reading_fi: 'Descargar imágen en tamaño original',
+
+            /* Neutron Landing */
+            neutron_desc: 'Bonita y simple plantilla de Landing Page para tu negocio realizada en Materialize CSS y HTML5, totalmente responsive y no hace uso de librerías externas ni complicado código Javascript.',
 
             /* Per Capital */
             per_desc: 'Finanzas inteligentes – El momento es ahora – Invierte, avanza',

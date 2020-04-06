@@ -1,5 +1,6 @@
 <template>
 <div>
+    <br><br>
     <b-row class="mx-auto" id="snakes-ladders">
         <b-col md="6" lg="6" sm="12">
             <b-img :src="require(`../../assets/all-work/per-capital/start.png`)" fluid alt="Fluid image"></b-img>
@@ -17,7 +18,7 @@
         <p>
             <small>{{$t('per_date')}}</small>
             <br>
-            <small> <strong>{{$t('resources')}}</strong> Laravel, Vue JS</small>
+            <small> <strong>{{$t('resources')}}</strong> Vue JS</small>
         </p>
         
         </b-row>
