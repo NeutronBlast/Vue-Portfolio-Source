@@ -16,7 +16,7 @@
                 <li><strong>{{$t('prov_c3')}}: </strong>{{$t('prov_c3d')}}</li>
                 <li><strong>{{$t('prov_c4')}}: </strong>{{$t('prov_c4d')}}</li>
             </ul>
-            <a href="https://github.com/metalsonic21/IS-Proveneet" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
+            <a href="https://github.com/NeutronBlast/IS-Proveneet" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
         </b-col>
     </b-row>
     <b-row class="ml-3 mr-3">

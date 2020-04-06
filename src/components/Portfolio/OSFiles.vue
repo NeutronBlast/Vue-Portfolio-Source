@@ -10,7 +10,7 @@
             <h1>{{$t('osf_tit')}}</h1>
             {{$t('osf_desc')}}<br><br>
 
-            <a href="https://github.com/metalsonic21/OS-Files" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
+            <a href="https://github.com/NeutronBlast/OS-Files" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
         </b-col>
     </b-row>
     <b-row class="ml-3 mr-3">

@@ -15,7 +15,7 @@
                 <li>{{$t('tt_l1')}}</li>
                 <li>{{$t('tt_l2')}}</li>
             </ul>
-            <a href="https://metalsonic21.github.io/IHC-TTProto/" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
+            <a href="https://github.com/NeutronBlast/IHC-TTProto" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
         </b-col>
     </b-row>
     <b-row class="ml-3 mr-3">

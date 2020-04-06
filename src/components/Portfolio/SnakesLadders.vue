@@ -17,7 +17,7 @@
                 <li>{{$t('snakes_l3')}}</li>
                 <li>{{$t('snakes_l4')}}</li>
             </ul>
-            <a href="https://github.com/metalsonic21/N1-SnakesLadders" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
+            <a href="https://github.com/NeutronBlast/N1-SnakesLadders" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
         </b-col>
     </b-row>
     <b-row class="ml-3 mr-3">

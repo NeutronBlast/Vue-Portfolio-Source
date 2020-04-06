@@ -10,7 +10,7 @@
             <h1>{{$t('p2_tit')}}</h1>
             {{$t('p2_desc')}}<br><br>
             
-            <a href="https://github.com/metalsonic21/P2-Bank" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
+            <a href="https://github.com/NeutronBlast/P2-Bank" class="btn btn-primary float-right">{{$t('btn_details')}}</a>
         </b-col>
     </b-row>
     <b-row class="ml-3 mr-3">
