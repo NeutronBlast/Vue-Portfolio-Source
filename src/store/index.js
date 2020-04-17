@@ -18,7 +18,7 @@ export default new Vuex.Store({
         state.slides.slide_one='slide-1ES.jpg';
         state.slides.slide_two='slide-2ES.jpg';
 
-        if (state.slides.width<958){
+        if (state.slides.width<566){
           state.slides.slide_two='slide-2M.jpg';
           state.slides.slide_one='slide-1ME.jpg';
         }
@@ -27,7 +27,7 @@ export default new Vuex.Store({
         state.slides.slide_one='slide-1.jpg';
         state.slides.slide_two='slide-2.jpg';
 
-        if (state.slides.width<958){
+        if (state.slides.width<566){
           state.slides.slide_two='slide-2ME.jpg';
           state.slides.slide_one='slide-1M.jpg';
         }

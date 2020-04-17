@@ -9,7 +9,8 @@ export const i18n = new VueI18n({
     messages:{
         en:{
             navHome: 'Home',
-            navWork: 'Work',
+            navWork: 'Programming Projects',
+            navEngineering: 'Software Engineering Projects',
             workSummary: 'Summary of my projects',
             portfolio: 'Portfolio',
             navAbout: 'About',
@@ -56,7 +57,8 @@ export const i18n = new VueI18n({
             survey_onu: 'Survey ONU',
             neutron_landing: 'Landing Page Template',
 
-            check_all: 'You can check all my projects clicking',
+            check_all: 'To see my programming projects click',
+            check_all_eng: 'To see my software engineering projects click',
 
             /* CONTACT */
             c_title: 'Get in touch',
@@ -371,7 +373,8 @@ export const i18n = new VueI18n({
         },
         es:{
             navHome: 'Inicio',
-            navWork: 'Trabajos',
+            navWork: 'Trabajos de programación',
+            navEngineering: 'Trabajos de ingeniería del software',
             workSummary: 'Resumen de mis proyectos',
             portfolio: 'Portafolio',
             navAbout: 'Información',
@@ -417,8 +420,8 @@ export const i18n = new VueI18n({
             survey_onu: 'Encuesta ONU',
             neutron_landing: 'Plantilla de Landing Page',
 
-            check_all: 'Puedes visualizar todos mis proyectos cliqueando',
-
+            check_all: 'Puedes visualizar todos mis proyectos de programación cliqueando',
+            check_all_eng: 'Puedes visualizar todos mis proyectos relacionados con ingeniería del software cliqueando',
             /* CONTACT */
             c_title: 'Contactame',
             c_description: 'Si tienes alguna pregunta, quieres hablar conmigo acerca de un proyecto, contratarme, o simplemente decir hola rellena el formulario de abajo o contáctame en mis redes sociales',

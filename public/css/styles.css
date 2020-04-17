@@ -89,8 +89,8 @@
 @media(min-width:1433px){
 .check-p{
     position: absolute;
-    top:-350px;
-    left:-110px;
+    top:-295px;
+    left:-113px;
 }
 
 .check-i{
@@ -103,8 +103,8 @@
 @media(min-width:1263px) and (max-width:1433px){
     .check-p{
         position: absolute;
-        top:-300px;
-        left:-95px;
+        top:-250px;
+        left:-101px;
     }
     .check-i{
         position: absolute;
@@ -116,7 +116,7 @@
 @media(min-width:1181px) and (max-width:1263px){
     .check-p{
         position: absolute;
-        top:-280px;
+        top:-230px;
         left:-90px;
     }
 
@@ -130,7 +130,7 @@
 @media(min-width:1047px) and (max-width:1181px){
     .check-p{
         position: absolute;
-        top:-240px;
+        top:-200px;
         left:-80px;
     }
 
@@ -144,7 +144,7 @@
 @media(min-width:957px) and (max-width:1047px){
     .check-p{
         position: absolute;
-        top:-210px;
+        top:-170px;
         left:-75px;
     }
 
@@ -158,91 +158,91 @@
 @media(min-width:858px) and (max-width:957px){
     .check-p{
         position: absolute;
-        top:-700px;
-        left:-75px;
+        top:-200px;
+        left:-85px;
     }
 
     .check-i{
         position: absolute;
-        top:-580px;
-        left:-75px;
+        top:-250px;
+        left:-85px;
     }
 }
 
 @media(min-width:748px) and (max-width:858px){
     .check-p{
         position: absolute;
-        top:-600px;
-        left:-65px;
+        top:-180px;
+        left:-80px;
     }
 
     .check-i{
         position: absolute;
-        top:-500px;
-        left:-65px;
+        top:-210px;
+        left:-70px;
     }
 }
 
 @media(min-width:635px) and (max-width:748px){
     .check-p{
         position: absolute;
-        top:-500px;
-        left:-55px;
+        top:-150px;
+        left:-65px;
     }
 
     .check-i{
         position: absolute;
-        top:-400px;
-        left:-55px;
+        top:-160px;
+        left:-65px;
     }
 }
 
 @media(min-width:600px) and (max-width:635px){
     .check-p{
         position: absolute;
-        top:-470px;
-        left:-50px;
+        top:-130px;
+        left:-60px;
     }
 
     .check-i{
         position: absolute;
-        top:-400px;
-        left:-50px;
+        top:-150px;
+        left:-60px;
     }
 }
 
 @media(min-width:566px) and (max-width:600px){
     .check-p{
         position: absolute;
-        top:-440px;
-        left:-50px;
+        top:-120px;
+        left:-60px;
     }
 
     .check-i{
         position: absolute;
-        top:-360px;
-        left:-50px;
+        top:-140px;
+        left:-60px;
     }
 }
 
 @media(min-width:520px) and (max-width:566px){
     .check-p{
         position: absolute;
-        top:-400px;
-        left:-45px;
+        top:-300px;
+        left:-40px;
     }
 
     .check-i{
         position: absolute;
-        top:-330px;
-        left:-45px;
+        top:-300px;
+        left:-40px;
     }
 }
 
 @media(min-width:498px) and (max-width:520px){
     .check-p{
         position: absolute;
-        top:-380px;
+        top:-350px;
         left:-40px;
     }
 
@@ -256,7 +256,7 @@
 @media(min-width:464px) and (max-width:498px){
     .check-p{
         position: absolute;
-        top:-350px;
+        top:-320px;
         left:-40px;
     }
 
@@ -270,7 +270,7 @@
 @media(min-width:408px) and (max-width:464px){
     .check-p{
         position: absolute;
-        top:-300px;
+        top:-270px;
         left:-35px;
     }
 
@@ -298,13 +298,13 @@
 @media(min-width:0px) and (max-width:369px){
     .check-p{
         position: absolute;
-        top:-250px;
+        top:-180px;
         left:-30px;
     }
 
     .check-i{
         position: absolute;
-        top:-200px;
+        top:-180px;
         left:-30px;
     }
 }
