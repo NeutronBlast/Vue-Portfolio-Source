@@ -1,6 +1,7 @@
 <template>
 <div>
-    <b-row class="mx-auto" id="snakes-ladders">
+    <br><br>
+    <b-row class="mx-auto" id="neutron-landing">
         <b-col md="6" lg="6" sm="12">
             <b-img :src="require(`../../assets/all-work/neutron-landing/start.jpg`)" fluid alt="Fluid image"></b-img>
         </b-col>
