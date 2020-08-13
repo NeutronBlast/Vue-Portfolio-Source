@@ -164,7 +164,8 @@ import ProgressBar from 'vue-simple-progress'
 import Education from '@/components/Home/Education.vue'
 export default {
     components: {
-        ProgressBar, Education
+        ProgressBar,
+        Education
     }
 }
 </script>

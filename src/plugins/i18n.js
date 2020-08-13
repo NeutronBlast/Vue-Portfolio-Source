@@ -45,7 +45,7 @@ export const i18n = new VueI18n({
 
             education: 'Education',
 
-            education_one: 'Reached 7th semester of Computer Engineering major in Universidad Católica Andrés Bello',
+            education_one: 'Reached 8th semester of Computer Engineering major in Universidad Católica Andrés Bello',
             education_two: 'Completed the first module of Cisco CCNA Networking Course',
             education_three: 'Completed my English course in Fyr Lois',
 
@@ -56,6 +56,7 @@ export const i18n = new VueI18n({
             reading_club: 'Reading Club',
             survey_onu: 'Survey ONU',
             neutron_landing: 'Landing Page Template',
+            netdoc: 'NetDoc',
 
             check_all: 'To see my programming projects click',
             check_all_eng: 'To see my software engineering projects click',
@@ -365,7 +366,7 @@ export const i18n = new VueI18n({
             nm_7: 'Trapezoidal rule',
             nm_date: 'January 21st, 2020',
 
-            resources_desc: "It's a bunch of posts which goal is to give resources that work as reference for beginner and mid-level programmers, it contains short projects, exercises, practices and other things that will be implemented in the future",
+            resources_desc: "Compilation of exercises and very short projects I did during certain university's subjects and some I did while I was learning certain programming languages independently. Contains basic algorithm exercises in diverse programming languages, mainly C, Java and SQL (and PL/SQL)",
             resource_click: 'To see all the resources I have published click',
 
             resources: 'Resources',
@@ -408,7 +409,7 @@ export const i18n = new VueI18n({
 
             education: 'Educación',
 
-            education_one: 'Llegué a 7mo semestre en la carrera Ingenieria Informática en la Universidad Católica Andrés Bello',
+            education_one: 'Llegué a 8vo semestre en la carrera Ingenieria Informática en la Universidad Católica Andrés Bello',
             education_two: 'Completé el Módulo 1 del curso de redes Cisco CCNA',
             education_three: 'Completé el curso de inglés de Fyr Lois',
 
@@ -419,6 +420,7 @@ export const i18n = new VueI18n({
             reading_club: 'Los clubes de lectura',
             survey_onu: 'Encuesta ONU',
             neutron_landing: 'Plantilla de Landing Page',
+            netdoc: 'NetDoc',
 
             check_all: 'Puedes visualizar todos mis proyectos de programación cliqueando',
             check_all_eng: 'Puedes visualizar todos mis proyectos relacionados con ingeniería del software cliqueando',
@@ -729,11 +731,10 @@ export const i18n = new VueI18n({
             nm_7: 'Regla del trapecio',
             nm_date: '21 de Enero de 2020',
 
-            resources_desc:'Es un conjunto de posts que tienen como fin aportar recursos que sirvan como referencia para programadores novatos y de nivel medio, contiene proyectos cortos, ejercicios, prácticas, entre otras cosas que serán implementadas a futuro',
+            resources_desc: "Compilación de ejercicios y proyectos muy pequeños que hice mientras cursaba ciertas materias de la universidad, algunos fueron hechos mientras aprendía ciertos lenguajes de programación de forma independiente. Contiene ejercicios básicos de algoritmos y prácticas en distintos lenguajes de programación, principalmente C, Java y SQL (incluyendo PL/SQL)",
             resource_click: 'Para echar un vistazo a los recursos que he publicado, cliquea',
 
-            
-
+        
             btn_details: 'Ver repositorio',
             resources: 'Recursos',
             screenshots: 'Capturas',

@@ -23,10 +23,10 @@
             </b-col>
 
             <b-col sm="12" md="4" lg="4" xs="12">
-                <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/picdriver.png`)" img-alt="Image" img-top>
+                <b-card no-body style="max-width: 20rem;" :img-src="require(`../../assets/work/netdoc.png`)" img-alt="Image" img-top>
                     <template v-slot:header>
-                        <a href="https://github.com/NeutronBlast/CA-Pic-Driver" class="work-link text-center">
-                            <h5 class="mb-0"><strong>{{$t('pic_driver')}}</strong></h5>
+                        <a href="https://github.com/NeutronBlast/NetDoc" class="work-link text-center">
+                            <h5 class="mb-0"><strong>{{$t('netdoc')}}</strong></h5>
                         </a>
                     </template>
 

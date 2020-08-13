@@ -7,7 +7,7 @@
                 <hr class="separator">
 
                 <p class="text-justify">
-                    {{$t('resources_desc')}} <br>
+                    {{$t('resources_desc')}} <br><br>
                     {{$t('resource_click')}} <router-link to="/resources">{{$t('job_one_link')}}</router-link>
                 </p>
             </b-col>
