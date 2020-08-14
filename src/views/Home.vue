@@ -5,7 +5,6 @@
     <Gallery></Gallery>
     <Res></Res>
     <Contact></Contact>
-    <MyFooter></MyFooter>
   </div>
 </template>
 
@@ -15,7 +14,6 @@ import About from '@/components/Home/About.vue'
 import Gallery from '@/components/Home/WorkGallery.vue'
 import Res from '@/components/Home/ResourceSummary.vue'
 import Contact from '@/components/Home/Contact.vue'
-import MyFooter from '@/components/Home/Footer.vue'
 
 export default {
   name: 'home',
@@ -25,7 +23,6 @@ export default {
     Gallery,
     Res,
     Contact,
-    MyFooter,
   }
 }
 </script>

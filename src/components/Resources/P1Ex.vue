@@ -21,7 +21,5 @@
         </p>
     </b-row>
     <br>
-
-
 </div>
 </template>

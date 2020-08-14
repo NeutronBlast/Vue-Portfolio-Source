@@ -5,6 +5,7 @@ import Portfolio from '../views/Portfolio.vue'
 import Resources from '../views/Resources.vue'
 import PortfolioP2 from '../views/PortfolioP2.vue'
 import PortfolioP3 from '../views/PortfolioP3.vue'
+import PortfolioP4 from '../views/PortfolioP4.vue'
 
 Vue.use(VueRouter)
 
@@ -34,6 +35,11 @@ const routes = [
     name: 'portfoliop3',
     component: PortfolioP3,
   },
+  {
+    path: '/portfolio/page/4',
+    name: 'portfoliop4',
+    component: PortfolioP4
+  }
 ]
 
 const router = new VueRouter({

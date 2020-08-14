@@ -2,35 +2,38 @@
 <div id="all">
     <br><br>
     <div class="container">
-        <OSFT /> <hr>
-        <Survey></Survey><hr>
-        <CS></CS><hr>
-        <Omar></Omar><hr>
-        <Earthquake></Earthquake><hr>
+        <OSPipes />
+        <hr>
+        <OSFT />
+        <hr>
+        <Survey></Survey>
+        <hr>
+        <CS></CS>
+        <hr>
+        <Omar></Omar>
+        <hr>
         <div class="float-right">
             <router-link to="/portfolio/page/2" class="previous mypagination">&laquo; {{$t('previous')}}</router-link>
+            <router-link to="/portfolio/page/4" class="next mypagination">{{$t('next')}} &raquo;</router-link>
         </div>
         <br><br><br>
     </div>
-    <MyFooter></MyFooter>
 </div>
 </template>
 
 <script>
+import OSPipes from '@/components/Portfolio/OSPipes.vue'
 import OSFT from '@/components/Portfolio/OSFT.vue'
 import Survey from '@/components/Portfolio/Survey.vue'
 import CS from '@/components/Portfolio/CS.vue'
 import Omar from '@/components/Portfolio/Omar.vue'
-import Earthquake from '@/components/Portfolio/Earthquake.vue'
-import MyFooter from '@/components/Home/Footer.vue'
 export default {
-    components:{
+    components: {
+        OSPipes,
         OSFT,
         Survey,
         CS,
         Omar,
-        Earthquake,
-        MyFooter,
     },
 }
 </script>
