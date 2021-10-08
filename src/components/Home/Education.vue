@@ -1,6 +1,6 @@
 <template>
 <div>
-    <vue-timeline-update :date="new Date('2020-08-12')" title="UCAB" description="" :thumbnail="require(`../../assets/about/ucab.png`)" category="COLLEGE" icon="school" color="black" theme="light">
+    <vue-timeline-update :date="new Date('2021-08-12')" title="UCAB" description="" :thumbnail="require(`../../assets/about/ucab.png`)" category="COLLEGE" icon="school" color="black" theme="light">
     </vue-timeline-update>
     <p class="timeline-text">
         {{$t('education_one')}}

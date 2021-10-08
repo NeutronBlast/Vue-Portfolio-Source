@@ -18,8 +18,8 @@
                         </b-col>
 
                         <b-col md="4" lg="4" sm="12">
-                            <label>Javascript</label>
-                            <ProgressBar size="large" val="70" text="70%" text-align="right" text-position="bottom"></ProgressBar>
+                            <label>Angular 2</label>
+                            <ProgressBar size="large" val="70" text="90%" text-align="right" text-position="bottom"></ProgressBar>
                         </b-col>
 
                         <b-col md="4" lg="4" sm="12">
@@ -53,7 +53,7 @@
 
                         <b-col md="4" lg="4" sm="12">
                             <label>Vue JS</label>
-                            <ProgressBar size="large" val="70" text="70%" text-align="right" text-position="bottom"></ProgressBar>
+                            <ProgressBar size="large" val="70" text="85%" text-align="right" text-position="bottom"></ProgressBar>
                         </b-col>
 
                         <b-col md="4" lg="4" sm="12">
@@ -80,26 +80,6 @@
                         <b-col cols="9">
                             {{$t('job_one_info')}} <a href="http://per-capital.com">{{$t('job_one_link')}}</a>
                             <br><br>
-                            <b-row>
-                                <b-col cols="6">
-                                    <h6> <strong>{{$t('responsibilities')}}</strong></h6>
-                                    <font-awesome-icon icon="check" /> {{$t('job_one_r1')}}
-                                    <br>
-
-                                    <font-awesome-icon icon="check" /> {{$t('job_one_r2')}}
-                                    <br>
-                                </b-col>
-
-                                <b-col cols="6">
-                                    <h6> <strong>{{$t('experience')}}</strong></h6>
-                                    <font-awesome-icon icon="star" /> {{$t('job_one_e1')}}
-                                    <br>
-
-                                    <font-awesome-icon icon="star" /> {{$t('job_one_e2')}}
-                                    <br>
-
-                                </b-col>
-                            </b-row>
                         </b-col>
                     </b-row>
                     <br>
@@ -115,22 +95,6 @@
                         <b-col cols="9">
                             {{$t('job_two_info')}}
                             <br><br>
-                            <b-row>
-                                <b-col cols="6">
-                                    <h6> <strong>{{$t('responsibilities')}}</strong></h6>
-                                    <font-awesome-icon icon="check" /> {{$t('job_two_r1')}}
-                                    <br>
-
-                                    <font-awesome-icon icon="check" /> {{$t('job_two_r2')}}
-                                    <br>
-                                </b-col>
-
-                                <b-col cols="6">
-                                    <h6> <strong>{{$t('experience')}}</strong></h6>
-                                    <font-awesome-icon icon="star" /> {{$t('job_two_e1')}}
-                                    <br>
-                                </b-col>
-                            </b-row>
                         </b-col>
                     </b-row>
                 </div>
